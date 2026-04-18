@@ -10,7 +10,8 @@ titanic_project/
 ├── notebooks/          # Original exploratory data analysis notebook
 │   └── titanic_notebook.ipynb
 ├── src/                # Refactored Python source code
-│   └── train.py        # Main script for preprocessing, training, and evaluation
+│   ├── train.py        # Main script for preprocessing, training, and evaluation
+│   └── streamlit_app.py # Streamlit web application for predictions
 ├── README.md           # Project documentation
 └── .git/               # Git repository configuration
 ```
