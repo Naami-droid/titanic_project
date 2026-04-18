@@ -37,11 +37,15 @@ The project now includes comprehensive evaluation metrics:
 ## How to Run
 1. Ensure you have the required libraries installed:
    ```bash
-   pip install pandas numpy scikit-learn
+   pip install pandas numpy scikit-learn streamlit
    ```
 2. Place `Titanic-Dataset.csv` in the `data/` folder.
-3. Run the training script:
+3. Run the training script to generate the model:
    ```bash
    cd src
    python train.py
+   ```
+4. Run the Streamlit web application:
+   ```bash
+   streamlit run src/streamlit_app.py
    ```
